@@ -28,7 +28,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          git commit -m "Add changes by Awvs_Update_Action" -a
+          git commit -m "Add changes by CobaltStrike_Update_Action" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
