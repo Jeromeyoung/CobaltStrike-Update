@@ -1,3 +1,3 @@
 source ~/.zshrc
 
-java -javaagent:/Applications/CobaltStrike.app/Contents/MacOS/cobaltstrikecn.jar -Xdock:icon=/Applications/CobaltStrike.app/Contents/Resources/ApplicationStub.icns -Dfile.encoding=utf-8 -XX:ParallelGCThreads=4  -XX:+AggressiveHeap -XX:+UseParallelGC -Xms512M -Xmx1024M -jar /Applications/CobaltStrike.app/Contents/MacOS/cobaltstrike.jar
+java -javaagent:/Applications/CobaltStrike.app/Contents/MacOS/App/cobaltstrikecn.jar -javaagent:/Applications/CobaltStrike.app/Contents/MacOS/App/hook.jar -Xdock:icon=/Applications/CobaltStrike.app/Contents/Resources/ApplicationStub.icns -Dfile.encoding=utf-8 -XX:ParallelGCThreads=4  -XX:+AggressiveHeap -XX:+UseParallelGC -Xms512M -Xmx1024M -jar /Applications/CobaltStrike.app/Contents/MacOS/App/cobaltstrike.jar
