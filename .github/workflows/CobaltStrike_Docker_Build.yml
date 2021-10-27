@@ -32,4 +32,3 @@ jobs:
         with:
           github_token: ${{ secrets.TOKEN_GITHUB }}
           branch: ${{ github.ref }}
-          force: true
