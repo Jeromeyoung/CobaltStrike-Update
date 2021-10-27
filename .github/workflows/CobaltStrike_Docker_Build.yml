@@ -1,8 +1,6 @@
 name: CobaltStrike Update
   
 on:
-  watch:
-    types: [started]
   repository_dispatch:
     types: [CobaltStrike_Update_Action]
 
