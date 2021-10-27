@@ -5,8 +5,6 @@ on:
     types: [started]
   repository_dispatch:
     types: [CobaltStrike_Update_Action]
-  schedule:
-    - cron:  '0 0 * * MON'
 
 jobs:
   CobaltStrike_Update:
